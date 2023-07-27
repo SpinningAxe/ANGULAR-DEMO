@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="images">
+    <img src={{item.image}}/>
+  <div class="product">
+    <p>Women's Running Shoe</p>
+    <h1>{{item.name}}</h1>
+    <h2>${{item.price}}</h2>
+    <p class="desc">In Stock: {{item.quantity}}</p>
+    <div class="buttons">
+      <button class="add" (click)="AddToCart()">Add to Cart</button>
+    </div>
+  </div>
+</div>

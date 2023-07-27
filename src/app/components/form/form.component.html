@@ -1,0 +1,16 @@
+<div class="container">
+    <form (submit)="submit()">
+        <H1>ADD ITEM</H1>
+        <H2>NAME</H2>
+        <input type="text" id="NAME" name="NAME" value="INSERT NAME" [formControl]="name"><br>
+        <H2>QUANTITY</H2>
+        <input type="number" id="QUANTITY" name="QUANTITY" value="INSERT QUANTITY" [formControl]="quantity"><br>
+        <H2>PRICE</H2>
+        <input type="number" id="PRICE" name="PRICE" value="INSERT PRICE" [formControl]="price"><br>
+        <H2>ID</H2>
+        <input type="text" id="ID" name="id" value="INSERT ID" [formControl]="id"><br>
+        <H2>IMAGE URL</H2>
+        <input type="text" id="IMAGE" name="IMAGE" value="INSERT IMGURL" [formControl]="image"><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
